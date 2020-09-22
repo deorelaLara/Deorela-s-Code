@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+    <head>
+        <title>Age of Empires II </title>
+        <link rel="stylesheet" href="../Styles/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+        </div>
+
+        <a href="Civilizations.html"><input type="button" class="btn" value="Civilizations"></a>
+        <table class="darkTable">
+            
+            <tr>
+             <th>ID</th>
+             <th>Name</th>
+             <th>Expansion</th>
+             <th>Army Type</th>
+           </tr>
+ 
+           {% for civ in civilizations %}
+             <tr>
+                         <td>{{ civ['id'] }}</td>
+                         <td>{{ civ['name'] }}</td>
+                         <td>{{ civ['expansion'] }}</td>
+                         <td>{{ civ['army_type'] }}</td>
+             </tr>
+           {% endfor %}
+       </table>
+
+       <a href="Units.html"><input type="button" class="btn" href="" value="Units"></a>
+       <table class="darkTable">
+        <tr>
+         <th>ID</th>
+         <th>Name</th>
+         <th>Age</th>
+         <th>Expansion</th>
+         <th>Attack</th>
+         <th>Armor</th>
+       </tr>
+
+       {% for unit in units %}
+         <tr>
+                     <td>{{ unit['id'] }}</td>
+                     <td>{{ unit['name'] }}</td>
+                     <td>{{ unit['age'] }}</td>
+                     <td>{{ unit['expansion'] }}</td>
+                     <td>{{ unit['attack'] }}</td>
+                     <td>{{ unit['armor'] }}</td>
+         </tr>
+       {% endfor %}
+        </table>
+
+        <a href="Structures.html"><input type="button" class="btn" href="" value="Structures"></a
+         <table class="darkTable">
+
+             <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Build Time</th>
+              <th>Armor</th>
+            </tr>
+        
+            {% for struc in structures %}
+              <tr>
+                          <td>{{ struc['id'] }}</td>
+                          <td>{{ struc['name'] }}</td>
+                          <td>{{ struc['age'] }}</td>
+                          <td>{{ struc['build_time'] }}</td>
+                          <td>{{ struc['armor'] }}</td>
+              </tr>
+        {% endfor %}
+        </table>
+
+        <a href="Technologies.html"><input type="button" class="btn" href="" value="Technologies"></a>
+        <table class="darkTable">
+            <tr>
+             <th>ID</th>
+             <th>Name</th>
+             <th>Expansion</th>
+             <th>Age</th>
+             <th>Build Time</th>
+           </tr>
+       
+           {% for tech in techs %}
+             <tr>
+                         <td>{{ tech['id'] }}</td>
+                         <td>{{ tech['name'] }}</td>
+                         <td>{{ tech['expansion'] }}</td>
+                         <td>{{ tech['age'] }}</td>
+                         <td>{{ tech['build_time'] }}</td>
+             </tr>
+        {% endfor %}
+        </table> 
+    </body>
+</html>

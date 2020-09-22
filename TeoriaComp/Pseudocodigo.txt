@@ -1,0 +1,127 @@
+Nombre : Alvarado Lara Luz Deorela Sabas
+Matricula : 10021265                
+                
+                Laboratorio de Descenso Recursivo
+Desarrollar el pseudocódigo con el método de descenso recursivo de los siguientes diagramas.
+
+######################## EJERCICIO 1 ##############################
+P ()
+{
+    if(next == a){
+        avanza(); //si el token es 'a' avanza
+        A(); //invoca al metodo A
+        if(next == b){
+            avanza(); //si el token es 'b' termina el metodo
+        }
+        else{
+            error(b); //se esperaba b 
+        }
+    }
+    else{
+        if(next == c){
+            avanza(); //si el token es 'c' avanza
+        }
+        else{
+            error(c); // se esperaba c
+        }
+    }   
+}
+
+B ()
+{
+    if(next == b){
+        avanza(); // si el token es 'b' avanza
+        if(next == ;){
+            avanza(); //si el token es ';' avanza y termina
+        }
+        else{
+            error(;) se esperaba un ;
+        }
+    }
+    else{
+        error(b); //se esperaba b
+    }
+}
+
+A (){
+    if(next == B){
+        C();
+        avanza();
+        if(next == C){
+            C();
+            avanza(); //avanza y termina
+        }
+        else{
+            error(;);
+        }
+    }
+    else{
+        error(B);
+    }
+}
+
+C (){
+    if(next == c){
+        avanza();
+        if(next == ;){
+            avanza(); //avanza y termina
+        }
+        else{
+            error(;)
+        }
+    }
+    else{
+        error(c); //se esperaba c
+    }
+}
+
+####################### EJERCICIO 2 ###############################
+VAR (){
+    if(next == int || next == double || next == string){
+        avanza();
+        if(next == id){
+            avanza();
+        }
+    }
+}
+
+####################### EJERCICIO 3 ###############################
+X(){
+    if(next == a){
+        avanza();
+        Y();
+        if(next == b){
+            avanza();
+            Y();
+            if(next == c){
+                avanza();
+            }
+            else{
+                if (next == a){
+                    avanza();
+                    Y(); //vuelve a validar todo el diagrama 
+                }
+            }
+        }
+        else{
+            if(next == b){
+                avanza();
+                Y(); //Puede regresar a b para volver a validar 
+            }
+        }
+    }
+    else{
+        error(a); //se espera 'a'
+    }
+}
+
+Y(){
+    if (next == d){
+        avanza();
+        X(); 
+    }
+    else{
+        avanza();
+        X();
+    }
+}

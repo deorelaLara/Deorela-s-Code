@@ -1,0 +1,35 @@
+h1{
+    color:orangered;
+}
+.baz{
+    color: aqua;
+}
+table{
+    border: 2px solid greenyellow;
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid greenyellow;
+    padding: 5px;
+}
+
+ul > li{
+    color: rgb(255, 0, 140);
+
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    background-color: orange;
+}
+button:hover{
+    background-color: greenyellow;
+}

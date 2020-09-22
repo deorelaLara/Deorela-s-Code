@@ -1,0 +1,108 @@
+<PROG>
+    {
+        if(next == id){
+            avanza();
+            if(next == {){
+                avanza();  
+                if(next == estatutos){
+                    avanaz();
+                    if(next==}){
+                        avanaza();
+                    }
+                    else{
+                        error(})
+                    }
+                }
+                else{
+                    error(estatutos)
+                }
+            }
+            else{
+                error(})
+            }
+        }
+        else{
+            error(id)
+        }
+    }
+
+<ESTATUTOS>{
+    if(next == asigna){
+        avanza();
+    }
+    else {
+        if (next == leer){
+            avanza();
+        }
+    }
+}
+
+<ASIGNA>{
+    if next(== id){
+        avanza();
+        if (next == '='){
+            avanza();
+            EXP_ARIT();
+            if(next == ;){
+                avanza();
+                fin;
+            }
+            else{
+                error(;)
+            }
+        }
+        else{
+            error(=)
+        }
+    }
+    else{
+        error(id)
+    }
+}
+
+<CTE>{
+    if(next == cte_ent || next == cte_real || next == cte_cadena){
+        avanza();
+        fin();
+    }
+    else{
+        error(int, double, string)
+    }
+}
+
+<OP-ART>{
+    if(next == + || next == - || next == * || next == /){
+        avanza();
+        fin();
+    }
+    else{
+        error(suma, resta, multip, div)
+    }
+}
+
+<LEER>{
+    if(next == leer){
+        avanza();
+        if(next == (){
+            avanza();
+            if(next == id){
+                avanza();
+            }
+            else{
+                if(next == ,){
+                    avanza();
+                }
+            }
+        }
+        else{
+            error(()
+        }
+    }
+    else{
+        error(leer)
+    }
+}
+
+
+
+    

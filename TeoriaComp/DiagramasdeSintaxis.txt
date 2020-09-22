@@ -1,0 +1,43 @@
+<PROG>{
+    programa();
+    if (next == id){
+        avanza();
+        DECLARAR.VAR();
+        
+        if(next == {){
+            avanza();
+            ESTATUTOS();
+            
+            if (next == }){
+                avanza();
+            }
+        }
+        else{
+            error({)
+        }
+    }
+}
+
+<DECLARAR-VAR>{
+    TIPO();
+    if(next == id) //preguntamos por el token "id" 
+    {
+        avanza();
+        if(next == cte_ent){
+            avanza();
+            if(next == ;){
+                avanza();
+                TIPO();
+            }
+            else{
+                error(;)
+            }
+        }
+        else{
+            error(cte_ent)
+        }
+    }
+    else {
+        TIPO();
+    }
+}

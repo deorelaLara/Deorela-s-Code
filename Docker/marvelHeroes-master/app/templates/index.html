@@ -1,0 +1,14 @@
+{% extends "indexBase.html" %}
+{% block content %}
+  
+  <table>
+    {% for hero in heroes %}
+    <tr>
+        <td>ID: {{hero.id}}</td>
+        <td>HERO: <a href='/hero/{{hero.id}}'>{{hero.name}}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+  
+{% endblock %}
+
