@@ -1,0 +1,13 @@
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\obj\Debug\netcoreapp3.1\CalcularVelocidad.csprojAssemblyReference.cache
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\obj\Debug\netcoreapp3.1\CalcularVelocidad.AssemblyInfoInputs.cache
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\obj\Debug\netcoreapp3.1\CalcularVelocidad.AssemblyInfo.cs
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\obj\Debug\netcoreapp3.1\CalcularVelocidad.csproj.CoreCompileInputs.cache
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\bin\Debug\netcoreapp3.1\CalcularVelocidad.exe
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\bin\Debug\netcoreapp3.1\CalcularVelocidad.deps.json
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\bin\Debug\netcoreapp3.1\CalcularVelocidad.runtimeconfig.json
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\bin\Debug\netcoreapp3.1\CalcularVelocidad.runtimeconfig.dev.json
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\bin\Debug\netcoreapp3.1\CalcularVelocidad.dll
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\bin\Debug\netcoreapp3.1\CalcularVelocidad.pdb
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\obj\Debug\netcoreapp3.1\CalcularVelocidad.dll
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\obj\Debug\netcoreapp3.1\CalcularVelocidad.pdb
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\CalcularVelocidad\obj\Debug\netcoreapp3.1\CalcularVelocidad.genruntimeconfig.cache

@@ -114,8 +114,13 @@ fp.close()
 analizador = lex.lex()
 
 analizador.input(cadena)
+print('----------------------------------------------------------------------------')  
+print('                            TABLE DE TOKENS                                 ')
+print('----------------------------------------------------------------------------')
+print('TIPO| LEX|LINEA|ESTADO')
 
 while True:
 	tok = analizador.token()
+	print(tok)
 	if not tok : break
 	print (tok)
