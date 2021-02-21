@@ -1,0 +1,13 @@
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\bin\Debug\netcoreapp3.1\Suma.exe
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\bin\Debug\netcoreapp3.1\Suma.deps.json
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\bin\Debug\netcoreapp3.1\Suma.runtimeconfig.json
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\bin\Debug\netcoreapp3.1\Suma.runtimeconfig.dev.json
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\bin\Debug\netcoreapp3.1\Suma.dll
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\bin\Debug\netcoreapp3.1\Suma.pdb
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\obj\Debug\netcoreapp3.1\Suma.csprojAssemblyReference.cache
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\obj\Debug\netcoreapp3.1\Suma.AssemblyInfoInputs.cache
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\obj\Debug\netcoreapp3.1\Suma.AssemblyInfo.cs
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\obj\Debug\netcoreapp3.1\Suma.csproj.CoreCompileInputs.cache
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\obj\Debug\netcoreapp3.1\Suma.dll
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\obj\Debug\netcoreapp3.1\Suma.pdb
+C:\Users\deore\OneDrive\Escritorio\Deorela-s-Code\c#\Suma\obj\Debug\netcoreapp3.1\Suma.genruntimeconfig.cache

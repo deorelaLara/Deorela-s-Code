@@ -2,8 +2,10 @@ from abc import ABC, abstractclassmethod
 import requests
 
 class Pokemon():
-    def __init__(self, name):
+    def __init__(self, name, order):
         self.Name = name
+        self.Order = order
+
 
 class Pokedex(ABC):
     @abstractclassmethod
@@ -13,7 +15,7 @@ class Pokedex(ABC):
 def getPokemon(id, bibliotec):
     p = bibliotec.Search(id)
     
-    return p.Name
+    return p.Name, p.Order
 
 class Poke(Pokedex):
     def __init__(self, url_base):
@@ -22,7 +24,7 @@ class Poke(Pokedex):
     def Search(self, id):
         res = requests.get('{}/{}'.format(self.url, id))
         json = res.json()
-        return Pokemon(json['name'])
+        return Pokemon(json['name'], json['order'], json['pokemon']['name'])
 
 
 if __name__ == "__main__":

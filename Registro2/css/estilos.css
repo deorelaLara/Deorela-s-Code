@@ -1,0 +1,149 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+body{
+  /*background: url('https://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1485547918/new-york-city-skyline-BIGCITY0117.jpg') no-repeat center center fixed; */
+ 
+background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('http://www.publicdomainpictures.net/pictures/50000/velka/flower-meadow.jpg');
+
+  /*background: url('http://www.publicdomainpictures.net/pictures/50000/velka/flower-meadow.jpg') no-repeat center center fixed;*/
+/*background: url('https://www.publicdomainpictures.net/pictures/220000/velka/sandy-beach-1495208439ToU.jpg') no-repeat center center fixed;*/
+/*background: url('https://www.publicdomainpictures.net/pictures/60000/velka/at-the-beach-of-atlantic-ocean.jpg') no-repeat center center fixed;*/
+}
+
+
+@font-face {
+  font-family: 'Metal Mania';
+  font-style: normal;
+  font-weight: 400;
+  
+  /*src: local('Metal Mania'), local('MetalMania-Regular'), url(http://themes.googleusercontent.com/static/fonts/metalmania/v2/_MPduYXiaptg6GQ2M6AHtJ0EAVxt0G0biEntp43Qt6E.ttf) format('truetype');
+Esta estrategia solo funciono de forma remota, el local no lo toma 
+  */
+	src: url('../fonts/Metal_Mania/MetalMania-Regular.ttf');
+}
+
+p {
+  font-family: 'Metal Mania', cursive;
+  font-size: 150%;
+}
+
+
+h2{
+	text-align: center;
+}
+
+.mayusculas{
+text-transform: uppercase;
+}
+
+input[type=text],input[type=tel],input[type=email],select,textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	
+}
+
+label {
+    padding: 12px 12px 12px 0;/*padding-top, padding-right, padding-bottom, and padding-left*/
+    display: inline-block;/*crear una cuadrícula de cajas que llene el navegador armoniosamente*/
+    float: right;
+}
+
+input[type=submit]{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float:  right;
+
+}
+
+/*ligado con el required*/
+select,input:optional {
+  border-color: gray;
+}
+select,input:valid {
+  border-color: green;
+}
+select,input:invalid {
+  border-color: red;
+}
+
+
+.container{
+	border-radius: 5px;
+	background-color: rgb(57,207,102,0.3);
+	padding: 20px;
+}
+
+
+.col-25{
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+
+}
+
+.col-75{
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+.col-100{
+	float: left;
+	width: 100%;
+	margin-top: 16px;
+}
+
+.boton_menu{
+	text-decoration: none;
+	padding: 5px;
+	font-weight: 200;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #1883ba;
+	border-radius: 6px;
+	border: 2px solid #0016b0;
+}
+
+.boton_menu:hover{
+	color:black;
+	background-color: #ffffff;
+}
+
+.row2{
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+.boton{
+	padding-top: 15px;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px){
+	.col-25,.col-75,input[type=submit]{
+		width: 100%;
+		margin-top: 0;
+	}
+
+	label {
+    padding: 12px 12px 12px 0;/*padding-top, padding-right, padding-bottom, and padding-left*/
+    display: inline-block;/*crear una cuadrícula de cajas que llene el navegador armoniosamente*/
+    float: left;
+}
+}

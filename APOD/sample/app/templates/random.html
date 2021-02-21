@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/images/icon.png"/>
+    <link rel="stylesheet" href="../static/style/style.css"/>
+    <title>APOD</title>
+</head>
+<body>
+    <div class="container">
+        <h2>{{apod.title}}</h2>
+    </div>
+    <div class="container2">
+        <img src="{{ apod.url }}" width="550" height="500" />
+    </div>
+    <div class="container3">
+        <aside>{{ apod.explanation }}</aside>
+    </div>
+    <a href="/random"><button id="btn2" class="button">New Picture</button></a>
+
+    
+
+</body>
+</html>

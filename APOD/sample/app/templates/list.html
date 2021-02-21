@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/images/icon.png"/>
+    <link rel="stylesheet" href="../static/style/styleList.css"/>
+    <link rel="stylesheet" href="../static/style/bootstrap.min.css"/>
+    <title>APOD | List</title>
+</head>
+
+<body id="content">
+    <div class="X">
+        <h1>Astronomy Picture of the Day</h1>
+    </div>
+    <table class="table table-bordered table-dark">
+        <thead>
+          <tr>
+            <th scope="col" id="texto">Date</th>
+            <th scope="col" id="texto">Name</th>
+            <th scope="col" id="texto">Type</th>
+            <th scope="col" id="texto">URL</th>
+          </tr>
+        </thead>
+
+    {% for x in apod %}       
+        <tr>
+            <td>{{ x['date'] }}</td>
+            <td>{{ x['name'] }}</td>
+            <td>{{ x['media_type'] }}</td>
+            <td>{{ x['url'] }}</td>
+        </tr>
+    {% endfor %}}
+    </table>
+</body>
+</html>

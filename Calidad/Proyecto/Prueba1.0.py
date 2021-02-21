@@ -11,11 +11,12 @@ class APOD():
         self.Date = date
         self.Media_type = media_type
         
-#INTERFAZ API
+#INTERFAZ API NASA APOD
 class BiblioAPOD(ABC):
     @abstractclassmethod
     def SearchPicture(date):
         pass
+
 
 def getPicture(date, bibliotec):
     apod = bibliotec.SearchPicture(date)
