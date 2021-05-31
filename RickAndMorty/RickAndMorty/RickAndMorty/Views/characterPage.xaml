@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RickAndMorty.Views.characterPage"
+             Title="Rick and Morty - API">
+
+    <StackLayout Margin="20">
+        <Label Text="You can edit the actual character or add a new one "
+               HorizontalTextAlignment="Center"
+               FontSize="Title"/>
+
+        <StackLayout Padding="0,40,0,0">
+            <Entry x:Name="idEntry" Text="{Binding Path=id}" 
+               Placeholder="Character ID" />
+            <Entry x:Name="nameEntry" Text="{Binding Path=name}" 
+               Placeholder="Character Name" />
+            <Entry x:Name="statusEntry" Text="{Binding Path=status}" 
+               Placeholder="Character Status" />
+            <Entry x:Name="speciesEntry" Text="{Binding Path=species}" 
+               Placeholder="Character Specie" />
+            <Entry x:Name="typeEntry" Text="{Binding Path=type}" 
+               Placeholder="Character Type" />
+            <Entry x:Name="locationEntry" Text="{Binding Path=location}" 
+               Placeholder="Character Location"/>
+        </StackLayout>
+
+        <StackLayout Margin="30" Padding="0, 100, 0 ,0">
+            <Button Text="Save" 
+                Clicked="OnSaveButtonClicked" 
+                Background="GreenYellow" CornerRadius="15" BorderColor="#04243c"/>
+            <Button Text="Delete"
+                Clicked="OnDeleteButtonClicked"
+                Background="OrangeRed" CornerRadius="15" BorderColor="#04243c"/>
+            <Button Text="Cancel" 
+                Clicked="OnCancelButtonClicked"
+                Background="Gray" CornerRadius="15" BorderColor="#04243c"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

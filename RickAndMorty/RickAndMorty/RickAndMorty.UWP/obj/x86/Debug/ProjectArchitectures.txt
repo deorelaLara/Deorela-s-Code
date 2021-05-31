@@ -1,0 +1,1 @@
+D:\RickAndMorty\RickAndMorty\RickAndMorty.UWP\RickAndMorty.UWP.csproj;x86
